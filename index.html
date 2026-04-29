@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Ecleptos Ceramica - Piezas únicas de cerámica artesanal hechas a mano con amor y tradición.">
+  <title>Ecleptos Ceramica | Arte en barro</title>
+  <!-- Google Fonts + Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" crossorigin="anonymous"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer">  <!-- Estilos principales -->
+  <link rel="stylesheet" href="css/estilo.css">
+  
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="navbar">
+<a href="#inicio" class="logo">
+  <img src="assets/img/logo.png" alt="Logo Ecleptos Cerámica">  Ecleptos <span>Cerámica</span>
+</a>      <ul class="nav-links">
+        <li><a href="#inicio" data-section="inicio">Inicio</a></li>
+        <li><a href="#productos" data-section="productos">Piezas</a></li>
+        <li><a href="#nosotros" data-section="nosotros">Estudio</a></li>
+        <li><a href="#contacto" data-section="contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- Sección Hero (portada con overlay interactivo) -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>Arte que nace del barro</h1>
+      <p>Piezas únicas moldeadas a mano con amor y tradición. Cada cerámica cuenta una historia hecha de tierra y fuego.</p>
+      <div class="hero-buttons">
+        <a href="#productos" class="btn">Descubrir colección</a>
+        <a href="#contacto" class="btn btn-outline">Encargar pieza</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Productos (con contorno en tarjetas) -->
+  <section id="productos">
+    <div class="container">
+      <h2>Piezas exclusivas</h2>
+      <p style="margin-bottom: 1rem; color:#5D4A3E;">Hechas a mano en nuestro taller, ninguna es igual a otra.</p>
+      <div class="grid-3">
+        <!-- Producto 1 -->
+        <article class="card-producto">
+          <img src="assets/img/1.jpg" alt="Cuenco de barro esmaltado en tonos terracota" loading="lazy">
+          <div class="product-info">
+            <h3>Contenedores </h3>
+            <p class="product-desc">Esmaltado con tonos terracota, ideal como contenedor o decoración.</p>
+            <p class="precio">$32.900 ARS</p>
+            <button class="btn-card" data-producto="Cuenco Ancestral">Consultar</button>
+          </div>
+        </article>
+        <!-- Producto 2 -->
+        <article class="card-producto">
+          <img src="assets/img/2.jpg" alt="Taza artesanal de cerámica con esmalte mate" loading="lazy">
+          <div class="product-info">
+            <h3>Mezcaleros</h3>
+            <p class="product-desc">Volumen ergonómico, esmalte mate suave. Capacidad 350ml.</p>
+            <p class="precio">$18.500 ARS</p>
+            <button class="btn-card" data-producto="Taza Orgánica">Consultar</button>
+          </div>
+        </article>
+        <!-- Producto 3 -->
+        <article class="card-producto">
+          <img src="assets/img/3.jpg" alt="Jarrón de cerámica con forma fluida" loading="lazy">
+          <div class="product-info">
+            <h3>Figuras/Esculturas</h3>
+            <p class="product-desc">Forma fluida, esmalte semi-brillante. Pieza central única.</p>
+            <p class="precio">$45.200 ARS</p>
+            <button class="btn-card" data-producto="Jarrón Sereno">Consultar</button>
+          </div>
+        </article>
+        <!-- Producto 4 -->
+        <article class="card-producto">
+          <img src="assets/img/4.jpg" alt="Plato rústico con textura orgánica" loading="lazy">
+          <div class="product-info">
+            <h3>Tazas</h3>
+            <p class="product-desc">Textura orgánica, esmalte craquelado. Para servir o decorar.</p>
+            <p class="precio">$24.700 ARS</p>
+            <button class="btn-card" data-producto="Plato Tierra">Consultar</button>
+          </div>
+        </article>
+        <!-- Producto 5 -->
+        <article class="card-producto">
+          <img src="assets/img/5.jpg" alt="Set de cuatro tazas mini artesanales" loading="lazy">
+          <div class="product-info">
+            <h3>Set de shots (x4)</h3>
+            <p class="product-desc">Mini colección de tazas de autor, ideal para mates o té.</p>
+            <p class="precio">$59.900 ARS</p>
+            <button class="btn-card" data-producto="Set de Tazas">Consultar</button>
+          </div>
+        </article>
+        <!-- Producto 6 -->
+        <article class="card-producto">
+          <img src="assets/img/5.jpg" alt="Pitcher o jarra rústica de cerámica" loading="lazy">
+          <div class="product-info">
+            <h3>Platos</h3>
+            <p class="product-desc">Jarra de agua o vino, esmalte interior vítreo.</p>
+            <p class="precio">$53.600 ARS</p>
+            <button class="btn-card" data-producto="Pitcher Rústico">Consultar</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Nosotros / Estudio -->
+  <section id="nosotros" class="section-bg">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>El alma de nuestro taller</h2>
+          <p>Ecleptos Ceramica nace en 2019 como un proyecto de rescate de la alfarería tradicional y contemporánea. Trabajamos con arcillas naturales de la región, horneadas en horno de leña y esmaltes sin plomo.</p>
+          <p>Cada pieza pasa por un proceso de semanas: modelado a mano, secado lento, primera cocción, esmaltado y segunda cocción. Creemos en la belleza de lo imperfecto y en objetos que conectan con la tierra.</p>
+          <a href="#contacto" class="btn">Trabajemos juntos</a>
+        </div>
+        <div class="valores">
+          <div class="valor-item">
+            <i class="fas fa-hands" aria-hidden="true"></i>
+            <div><h4>Hecho a mano</h4><small>Sin moldes industriales, cada pieza es única</small></div>
+          </div>
+          <div class="valor-item">
+            <i class="fas fa-leaf" aria-hidden="true"></i>
+            <div><h4>Sustentable</h4><small>Arcillas locales y esmaltes ecológicos</small></div>
+          </div>
+          <div class="valor-item">
+            <i class="fas fa-fire" aria-hidden="true"></i>
+            <div><h4>Cocción ancestral</h4><small>Horno de leña que da texturas únicas</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto">
+    <div class="container">
+      <h2>Conversemos sobre tu pieza</h2>
+      <p style="margin-bottom: 2rem;">¿Te gustaría una obra a medida? O consultar disponibilidad, escríbenos.</p>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h3><i class="fas fa-store" aria-hidden="true"></i> Visitanos / Contacto</h3>
+          <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Dirección: Vicente Guerrero 35, Centro, 28000 Colima, Col.
+                   <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Dirección: Pablo Neruda 100 B, Lomas Vista Hermosa, 28010 Colima, Col.
+ </p>
+          <p><i class="fas fa-phone-alt" aria-hidden="true"></i> +52 341 100 8396</p>
+          <p><i class="fas fa-envelope" aria-hidden="true"></i> carlosecleptos@gmail.com</p>
+          <div class="social-icons">
+<a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+<a href="#" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+<a href="#" aria-label="Pinterest" target="_blank" rel="noopener noreferrer"><i class="fab fa-pinterest-p"></i></a>          </div>
+          <div style="margin-top: 1.5rem;">
+            <p><i class="fas fa-clock" aria-hidden="true"></i> Horario taller: Martes a Sábado 10am - 18pm</p>
+          </div>
+        </div>
+<form id="contactForm" action="https://formspree.io/f/xgoroled" method="POST">
+    <div class="form-group">
+  <label>
+
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+  </label>
+
+    </div>
+      <label>
+
+    <div class="form-group">
+        <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                  </label>
+
+    </div>
+
+    <div class="form-group">
+        <label>
+
+        <textarea rows="4" id="mensaje" name="mensaje" placeholder="Tu consulta..." required></textarea>
+          </label>
+
+    </div>
+    <button type="submit" class="btn btn-enviar">Enviar mensaje</button>
+</form>
+
+
+
+  
+
+
+
+
+
+
+
+
+<p id="formFeedback" style="margin-top: 1rem; font-size: 0.85rem;" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-content">
+    <p>© 2026  Ecleptos Cerámica  — Taller de arte en barro. Diseños únicos con identidad artesanal.</p>
+    <p><i class="fas fa-heart" style="color: var(--ocre-arcilla);"></i> Hecho con dedicación en Colima</p>
+  </div>
+</footer>
+
+<a href="#" class="whatsapp-float" id="whatsappBtn" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Scripts -->
+<script src="js/scripts.js"></script>
+</body>
+</html>
